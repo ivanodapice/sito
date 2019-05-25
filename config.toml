@@ -29,7 +29,7 @@ enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = false
+disableRSS     = true
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false
@@ -41,7 +41,7 @@ disableHugoGeneratorInject = false
   name = "Ivano D'Apice"
 
 [blackfriday]
-  hrefTargetBlank = true
+  hrefTargetBlank = false
 
 
 

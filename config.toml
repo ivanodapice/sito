@@ -96,6 +96,10 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://www.linkedin.com/in/ivanodapice/"
 
+    [[params.social]]
+    name = "facebook"
+    url  = "https://twitter.com/Mel_Brooks1"
+
 [languages]
   [languages.en]
     subtitle  = "Hello Friend NG Theme"

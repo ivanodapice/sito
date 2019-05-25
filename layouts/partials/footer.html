@@ -1,0 +1,13 @@
+<footer class="footer">
+    <div class="footer__inner">
+      {{ if $.Site.Copyright }}
+       
+      {{else}}
+        {{ partial "logo.html" . }}
+       
+      {{end}}
+    </div>
+  </footer>
+  
+ 
+  {{- partial "extended_footer.html" . }}

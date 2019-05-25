@@ -98,7 +98,11 @@ disableHugoGeneratorInject = false
 
     [[params.social]]
     name = "facebook"
-    url  = "https://twitter.com/Mel_Brooks1"
+    url  = "https://www.facebook.com/ivano.dapice"
+
+    [[params.social]]
+    name = "telegram"
+    url  = "https://t.me/ivanodapice"
 
 [languages]
   [languages.en]

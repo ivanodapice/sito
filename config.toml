@@ -41,7 +41,7 @@ disableHugoGeneratorInject = false
   name = "Ivano D'Apice"
 
 [blackfriday]
-  hrefTargetBlank = false
+  hrefTargetBlank = true
 
 
 

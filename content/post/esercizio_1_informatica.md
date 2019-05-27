@@ -3,6 +3,7 @@ title: "Creare una calcolatrice in C++"
 date: 2019-05-24T12:24:05+02:00
 draft: true
 url: "/esercizio_1_informatica"
+widescreen: yes
 ---
 
 <a href="https://CALCULATOR.ivanodapice.repl.run" target="_blank">Run this program</a>

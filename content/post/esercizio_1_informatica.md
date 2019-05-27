@@ -8,7 +8,7 @@ widescreen: yes
 
 <a href="https://CALCULATOR.ivanodapice.repl.run" target="_blank">Run this program</a>
 
-```C++
+~~~C++
 //
 //  main.cpp
 //  EI_ES1
@@ -98,4 +98,4 @@ int main ()
     }
     
 }
-```
+~~~

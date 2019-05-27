@@ -27,10 +27,10 @@
             {{- end }}
 
             {{ with .Params.Cover }}
-                <img src="/img/{{ . }}" class="post-cover" widht="30" height="30" />
+                <img src="/img/{{ . }}" class="post-cover" />
             {{ end }}
 
-            <div class="post-content">
+            <div class="post-content" widht="30" height="30">
                 {{ .Content }}
             </div>
         </article>

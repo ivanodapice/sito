@@ -5,6 +5,8 @@ DefaultContentLanguage = "en"
 
 theme = "hello-friend-ng"
 
+paginate = 10
+
 PygmentsCodeFences = true
 PygmentsStyle = "panr"
 

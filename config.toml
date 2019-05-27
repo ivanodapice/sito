@@ -20,16 +20,16 @@ dataDir      = "data"
 layoutDir    = "layouts"
 publishDir   = "public"
 
-buildDrafts  = false
-buildFuture  = false
-buildExpored = false
+buildDrafts  = true
+buildFuture  = true
+buildExpored = true
 canonifyURLs = true
 
 enableRobotsTXT = true
 enableGitInfo   = false
 enableEmoji     = true
 enableMissingTranslationPlaceholders = false
-disableRSS     = true
+disableRSS     = false
 disableSitemap = false
 disable404     = false
 disableHugoGeneratorInject = false

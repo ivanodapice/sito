@@ -52,9 +52,9 @@ rules:
         - to
 
 globals:
-  document: true
+  document: false
   requestAnimationFrame: true
   window: false
   self: true
-  fetch: true
+  fetch: false
   Headers: false

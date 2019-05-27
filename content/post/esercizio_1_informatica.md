@@ -80,7 +80,7 @@ int main ()
             cout << "Il risultato è : " << risultato << endl;
             break;
             
-        case 65
+        case 6
             :
             cout << "Inserisci il radicando\n";
             cin >> num1;

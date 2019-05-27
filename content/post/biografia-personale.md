@@ -1,6 +1,6 @@
 ---
 title: "Biografia Personale"
-url: "/bio"
+url: ""
 date: 2019-05-24T01:46:38+02:00
 draft: false
 ---

@@ -121,10 +121,10 @@ disableHugoGeneratorInject = false
     name       = "Informatica"
     url        = "/informatica"
 
-  [[menu.main]]
+  //[[menu.main]]
     
-    name       = "Bio"
-    url        = "/bio"
+    //name       = "Bio"
+    //url        = "/bio"
 
 [[params.main]]
     link = "/esercizio_1_informatica"

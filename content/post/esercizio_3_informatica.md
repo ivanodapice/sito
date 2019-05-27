@@ -5,7 +5,7 @@ draft: false
 url: "/esercizio_3_informatica"
 ---
 
-[Run this program](https://repl.it/@ivanodapice/MUSEUM)
+<a href="https://MUSEUM.ivanodapice.repl.run" target="_blank">Run this program</a>
 
 ```C++
 //

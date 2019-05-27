@@ -5,7 +5,7 @@ draft: false
 url: "/esercizio_1_informatica"
 ---
 
-<a href="https://repl.it/@ivanodapice/CALCULATO" target="_blank">Run this program</a>
+<a href="https://CALCULATOR.ivanodapice.repl.run" target="_blank">Run this program</a>
 
 ```C++
 //

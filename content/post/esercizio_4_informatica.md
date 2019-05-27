@@ -5,7 +5,7 @@ draft: false
 url: "/esercizio_4_informatica"
 ---
 
-[Run this program](https://repl.it/@ivanodapice/ARRAYMAX)
+<a href="https://ARRAYMAX.ivanodapice.repl.run" target="_blank">Run this program</a>
 
 ```C++
 //

@@ -5,14 +5,19 @@
     <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
     {{else}}
       {{ partial "logo.html" . }}
-      <div class="footer__content">
-        <span>Pagina creata come database personale per l'universita' </span>
-      </div>
+     
   </div>
   <div class="copyright">
     <span>© {{ now.Year }} Powered by <a href="https://gohugo.io">Hugo</a></span>
     <span>Theme created by <a href="https://twitter.com/panr">panr</a></span>
   </div>
+
+  <div class="footer__inner">
+    <div class="footer__content">
+        <span>Sito creato come database per l'universita' <a href="http://gohugo.io">Hugo</a></span>
+        <span>Made with &#10084; by <a href="https://github.com/rhazdon">rhazdon</a></span>
+    </div>
+</div>
 {{end}}
 </div>
 </footer>

@@ -67,7 +67,7 @@ disableHugoGeneratorInject = false
   customJS  = []
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
-  justifyContent = true  # Set "text-align: justify" to .content.
+  justifyContent = false  # Set "text-align: justify" to .content.
 
   # Directory name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
@@ -96,11 +96,11 @@ disableHugoGeneratorInject = false
     name = "linkedin"
     url  = "https://www.linkedin.com/in/ivanodapice/"
 
-    [[params.social]]
+  [[params.social]]
     name = "facebook"
     url  = "https://www.facebook.com/ivano.dapice"
 
-    [[params.social]]
+  [[params.social]]
     name = "telegram"
     url  = "https://t.me/ivanodapice"
 

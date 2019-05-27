@@ -1,19 +1,8 @@
 ---
 title: "Creare una calcolatrice in C++"
 date: 2019-05-24T12:24:05+02:00
-draft: false
+draft: true
 url: "/esercizio_1_informatica"
-author:
-  name: "Michael Henderson"
-date: 2014-09-28
-linktitle: Creating a New Theme
-type:
-- post
-- posts
-title: Creating a New Theme
-weight: 10
-series:
-- Hugo 101
 ---
 
 <a href="https://CALCULATOR.ivanodapice.repl.run" target="_blank">Run this program</a>

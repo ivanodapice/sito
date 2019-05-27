@@ -5,6 +5,9 @@
     <div class="copyright copyright--user">{{ $.Site.Copyright | safeHTML }}</div>
     {{else}}
       {{ partial "logo.html" . }}
+      <div class="footer__content">
+        <span>Pagina creata come database personale per l'universita' </span>
+      </div>
   </div>
   <div class="copyright">
     <span>© {{ now.Year }} Powered by <a href="https://gohugo.io">Hugo</a></span>

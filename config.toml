@@ -43,7 +43,7 @@ disableHugoGeneratorInject = false
   name = "Ivano D'Apice"
 
 [blackfriday]
-  hrefTargetBlank = true
+  hrefTargetBlank = false
   latexDashes = true
   fractions = true
   smartypants = true

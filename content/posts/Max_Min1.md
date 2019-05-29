@@ -43,7 +43,7 @@ $$f_{xx}=6x$$
 ***
 $$f_{yy}=6x$$
 ***
-$$ f_{xy} = f_{yx} = 6y$$
+$$ f_{xy}=$$ $$f_{yx}=6y
 ***
 
 <p align="center">Adesso calcoliamo gli hessiani nei due punti</p>

@@ -6,6 +6,10 @@ draft: false
 showDate: true
 ---
 $$\begin{document}
+\documentclass[a4paper]{article}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
 \author{Ivano D'Apice}
 \title{Massimi e minimi}
 f(x,y) = x^3 + 3xy^2 - 15x - 12y. $$

@@ -2,7 +2,7 @@
 title: "Calcolare gli eventuali punti di minimo o massimo della seguente funzione"
 url: "/Max_Min1"
 date: 2019-05-24T01:19:27+02:00
-draft: false
+draft: true
 showDate: true
 ---
 
@@ -43,8 +43,8 @@ $$f_{xx}=6x$$
 ***
 $$f_{yy}=6x$$
 ***
-$$f_{xy}=f_{yx}=6y$$
-
+$$ f_{xy} = f_{yx} = 6y$$
+***
 
 <p align="center">Adesso calcoliamo gli hessiani nei due punti</p>
 

@@ -11,7 +11,8 @@ ___
 <p align="center">Calcoliamo le derivate prime : </p>
 ___
    $$\cdot f_{x}=3x^{2}+3y^{2}-15$$
-   $$=x^{2}+y^{2}-5$$\\
+   $$=x^{2}+y^{2}-5$$
+___
    $$\cdot f_{y}=6xy-12$$
    $$=xy-2$$
 ___
@@ -30,7 +31,8 @@ ___
 
 <p align="center">Dopo aver risolto questo sistema troviamo due punti,</p>
 ___
-$$P_1=(1,2)$$\\
+$$P_1=(1,2)$$
+___
 $$P_2=(-1,-2)$$
 ___
 <p align="center">Ora calcoliamo le derivate seconde : </p>

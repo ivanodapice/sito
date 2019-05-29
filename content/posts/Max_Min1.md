@@ -6,10 +6,6 @@ draft: false
 showDate: true
 ---
 
-
-<p align="center"></p>
-
-
 $$f_{x}=x^3+3xy^2-15x-12y$$
 <p align="center">Calcoliamo le derivate prime : </p>
 

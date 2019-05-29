@@ -128,11 +128,17 @@ disableHugoGeneratorInject = false
     name       = "Informatica"
     url        = "/informatica"
 
+[menu]
+  [[menu.main]]
+    
+    name       = "Matematica"
+    url        = "/matematica"
 
-[[params.main]]
+
+[[params.page]]
     link = "/esercizio_1_informatica"
 
-[[params.main]]
+[[params.page]]
     link = "/esercizio_2_informatica"
 
 [[params.page]]
@@ -146,6 +152,9 @@ disableHugoGeneratorInject = false
 
 [[params.page]]
     link = "/esercizio_6_informatica"
+
+[[params.page]]
+    link = "/Max_Min1"
 
 [imaging]
     quality = 75

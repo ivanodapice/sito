@@ -28,16 +28,23 @@ x^{2}+\frac{4}{x^{2}}=5\\
 y=\frac{2}{x}
 \end{Bmatrix}$$
 
+**
+
 <p align="center">Dopo aver risolto questo sistema troviamo due punti,</p>
 
 $$P_1=(1,2)$$\\
 $$P_2=(-1,-2)$$
 
+**
+
 <p align="center">Ora calcoliamo le derivate seconde : </p>
 
-$$f_{xx}=6x$$\\
-$$f_{yy}=6x$$\\
+$$f_{xx}=6x$$
+**
+$$f_{yy}=6x$$
+**
 $$f_{xy}=f_{yx}=6y$$
+**
 
 <p align="center">Adesso calcoliamo gli hessiani nei due punti</p>
 

@@ -12,4 +12,11 @@ $$\begin{document}
 \usepackage[italian]{babel}
 \author{Ivano D'Apice}
 \title{Massimi e minimi}
-f(x,y) = x^3 + 3xy^2 - 15x - 12y. $$
+\maketitle
+\tableofcontents
+\section{Inizio}
+Bene, qui comincia il nostro grazioso articolo\dots
+\section{Fine}
+\dots e qui finisce.
+f(x,y) = x^3 + 3xy^2 - 15x - 12y. 
+\end{document}$$

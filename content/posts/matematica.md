@@ -11,17 +11,19 @@ showDate: true
 
 
 $$f_{x}=x^3+3xy^2-15x-12y$$
-<p align="center">Calcoliamo le derivate prime</p>
+<p align="center">Calcoliamo le derivate prime : </p>
 
-   $$f_{x}=3x^{2}+3y^{2}-15$$
+   $$\cdot f_{x}=3x^{2}+3y^{2}-15$$
    $$=x^{2}+y^{2}-5$$
-   ---
-   $$f_{y}=6xy-12$$
+   ***
+   $$\cdot f_{y}=6xy-12$$
    $$=xy-2$$
-   ---
+   ***
+
+<p align="center">Mettiamo al sistema le due derivate : </p>
 
 $$\begin{Bmatrix}
-a=
-x+y
+x^{2}+y^{2}=5\\
+y=\frac{2}{x}
 \end{Bmatrix}
 $$

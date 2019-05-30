@@ -15,6 +15,7 @@ Pagina creata per conservare in un unico database i progetti del corso di *`elem
 * [Esercizio 4](/esercizio_4_informatica/)
 * [Esercizio 5](/esercizio_5_informatica/)
 * [Esercizio 6](/esercizio_6_informatica/)
+* [Esercizio 7](/esercizio_7_informatica/)
 
 
 

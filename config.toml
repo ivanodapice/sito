@@ -151,6 +151,9 @@ disableHugoGeneratorInject = false
 
 [[params.page]]
     link = "/esercizio_6_informatica"
+  
+[[params.page]]
+    link = "/esercizio_7_informatica"
 
 [[params.page]]
     link = "/Max_Min1"

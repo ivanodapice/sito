@@ -7,7 +7,7 @@ theme = "hello-friend-ng"
 
 paginate = 10
 
-PygmentsCodeFences = true
+PygmentsCodeFences = false
 PygmentsStyle = "pastie"
 
 rssLimit  = 20  # Maximum number of items in the RSS feed.

@@ -1,5 +1,5 @@
 ---
-title: "Informatica"
+title: "Matematica"
 date: 2019-05-24T08:42:40+02:00
 url: "/matematica"
 draft: false

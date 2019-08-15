@@ -133,6 +133,11 @@ disableHugoGeneratorInject = false
     name       = "Matematica"
     url        = "/matematica"
 
+  [[menu.main]]
+    
+    name       = "Artists"
+    url        = "/artists"
+
 
 [[params.page]]
     link = "/esercizio_1_informatica"

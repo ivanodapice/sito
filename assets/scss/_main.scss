@@ -139,16 +139,16 @@ figure {
 }
 
 code {
-  font-family: Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
+  font-family: Metropolis,Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
   font-feature-settings: normal;
   background: $light-background-secondary;
   padding: 1px 6px;
   margin: 0 2px;
-  border-radius: 5px;
+  border-radius: 10px;
   font-size: .95rem;
 
   .dark-theme & {
-    background: $dark-background-secondary;
+    background: #131313;//$dark-background-secondary;
   }
 }
 

@@ -144,11 +144,11 @@ code {
   background: $light-background-secondary;
   padding: 1px 6px;
   margin: 0 2px;
-  border-radius: 10px;
+  border-radius: 8px;
   font-size: .95rem;
 
   .dark-theme & {
-    background: #131313;//$dark-background-secondary;
+    background: #181818;
   }
 }
 

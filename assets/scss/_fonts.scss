@@ -42,3 +42,43 @@
   src: url("../fonts/Inter-UI-BoldItalic.woff2") format("woff2"),
        url("../fonts/Inter-UI-BoldItalic.woff") format("woff");
 }
+
+@font-face {
+  font-family: 'Metropolis';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("../fonts/Metropolis-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: 'Metropolis';
+  font-style:  italic;
+  font-weight: 400;
+  src: url("../fonts/Metropolis-RegularItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  font-style:  normal;
+  font-weight: 600;
+  src: url("../fonts/Metropolis-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: 'Metropolis';
+  font-style:  italic;
+  font-weight: 600;
+  src: url("../fonts/Metropolis-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Metropolis';
+  font-style:  normal;
+  font-weight: 800;
+  src: url("../fonts/Metropolis-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: 'Metropolis';
+  font-style:  italic;
+  font-weight: 800;
+  src: url("../fonts/Metropolis-BoldItalic.woff") format("woff");
+}
+

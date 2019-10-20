@@ -5,7 +5,7 @@ url: "/artists"
 draft: false  
 ---
 
-Collections of various links of good artist pages.
+Collection of various artist pages.
 
 * [HREFNA SIGURÐARDÓTTIR](https://hrefnasigurdardottir.tumblr.com/)
 * [11allsta11](https://11allsta11.tumblr.com/post/181370790247)

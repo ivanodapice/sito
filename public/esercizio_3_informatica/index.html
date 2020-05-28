@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author"
+    content="Ivano D&#39;Apice ">
+<meta name="description"
+    content="Run this program//// main.cpp// EI_ES3//// Created by Ivano D&#39;Apice on 17/05/2019.// Copyright © 2019 Ivano D&#39;Apice. All rights reserved.///*Changelog :Version 1.0 - Got some bugs... the temperature shows always the same value with Generate()structure, and my reiteration process doesn&#39;t work with char consent---Solved (changed random numbers process for the vector and also changed consent type fromchar to string)Version 2." />
+<meta name="keywords" content="" />
+<meta name="robots" content="noodp" />
+<link rel="canonical" href="/esercizio_3_informatica/" />
+
+
+<title>
+    
+    Write a program in C&#43;&#43; coding language that simulate the periodic acquisition by sensors (In a specific Museum&#39;s Room) of a certain number of temperature measures. Those measures must be set randomly in a range of one to fifty. The number of sensors that acquires temperature also must be set randomly but in a range of 1 to 10 pieces. Once we get those measurements of temperature the program must calculate the value of minimum, maximum and the average of our temperature values. With the average value of the temperature, if we get a lower value of 10 or a higher value of 28 Celsius degrees the program must alert to turn on the air conditioning by a message of video output. :: cd Ivano D&#39;Apice/Università  — Hello Friend NG Theme
+    
+</title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.min.ddde79880fa59c2d284574159dcb625f41d832da2de9c4ccf56184901b646fe3.css">
+
+
+
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#252627">
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="theme-color" content="#252627"><meta itemprop="name" content="Write a program in C&#43;&#43; coding language that simulate the periodic acquisition by sensors (In a specific Museum&#39;s Room) of a certain number of temperature measures. Those measures must be set randomly in a range of one to fifty. The number of sensors that acquires temperature also must be set randomly but in a range of 1 to 10 pieces. Once we get those measurements of temperature the program must calculate the value of minimum, maximum and the average of our temperature values. With the average value of the temperature, if we get a lower value of 10 or a higher value of 28 Celsius degrees the program must alert to turn on the air conditioning by a message of video output.">
+<meta itemprop="description" content="Run this program//// main.cpp// EI_ES3//// Created by Ivano D&#39;Apice on 17/05/2019.// Copyright © 2019 Ivano D&#39;Apice. All rights reserved.///*Changelog :Version 1.0 - Got some bugs... the temperature shows always the same value with Generate()structure, and my reiteration process doesn&#39;t work with char consent---Solved (changed random numbers process for the vector and also changed consent type fromchar to string)Version 2.">
+<meta itemprop="datePublished" content="2019-05-24T12:24:05&#43;02:00" />
+<meta itemprop="dateModified" content="2019-05-24T12:24:05&#43;02:00" />
+<meta itemprop="wordCount" content="531">
+<meta itemprop="image" content=""/>
+
+
+
+<meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content=""/>
+
+<meta name="twitter:title" content="Write a program in C&#43;&#43; coding language that simulate the periodic acquisition by sensors (In a specific Museum&#39;s Room) of a certain number of temperature measures. Those measures must be set randomly in a range of one to fifty. The number of sensors that acquires temperature also must be set randomly but in a range of 1 to 10 pieces. Once we get those measurements of temperature the program must calculate the value of minimum, maximum and the average of our temperature values. With the average value of the temperature, if we get a lower value of 10 or a higher value of 28 Celsius degrees the program must alert to turn on the air conditioning by a message of video output."/>
+<meta name="twitter:description" content="Run this program//// main.cpp// EI_ES3//// Created by Ivano D&#39;Apice on 17/05/2019.// Copyright © 2019 Ivano D&#39;Apice. All rights reserved.///*Changelog :Version 1.0 - Got some bugs... the temperature shows always the same value with Generate()structure, and my reiteration process doesn&#39;t work with char consent---Solved (changed random numbers process for the vector and also changed consent type fromchar to string)Version 2."/>
+
+
+
+
+<meta property="article:published_time" content="2019-05-24 12:24:05 &#43;0200 CEST" />
+
+
+
+
+
+
+
+        <meta name="google-site-verification" content="UNR4YyEEz0NfI7Naz7xZa_ulcfm7GgvvH4bZmy6HS3U" />
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/</span>
+            <span class="logo__cursor"></span>
+        
+    </div>
+    
+</a>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/artists">Artists</a></li><li><a href="/informatica">Informatica</a></li><li><a href="/matematica">Matematica</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+            </script>
+            <div class="content">
+                
+    <main class="post">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+        </script>
+        <div class="post-info">
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-clock"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>3 minutes
+
+            
+
+            </p>
+        </div>
+
+        <article>
+            <h1 class="post-title"><a href="/esercizio_3_informatica/">Write a program in C++ coding language that simulate the periodic acquisition by sensors (In a specific Museum&rsquo;s Room) of a certain number of temperature measures. Those measures must be set randomly in a range of one to fifty. The number of sensors that acquires temperature also must be set randomly but in a range of 1 to 10 pieces. Once we get those measurements of temperature the program must calculate the value of minimum, maximum and the average of our temperature values. With the average value of the temperature, if we get a lower value of 10 or a higher value of 28 Celsius degrees the program must alert to turn on the air conditioning by a message of video output.</a></h1>
+
+            
+
+            <div class="post-content" widht="30" height="30" viewBox="0 0 30 30">
+                <p><!-- raw HTML omitted -->Run this program<!-- raw HTML omitted --></p>
+<pre><code class="language-C++">//
+//  main.cpp
+//  EI_ES3
+//
+//  Created by Ivano D'Apice on 17/05/2019.
+//  Copyright © 2019 Ivano D'Apice. All rights reserved.
+//
+
+/*Changelog :
+ Version 1.0 - Got some bugs... the temperature shows always the same value with Generate()
+ structure, and my reiteration process doesn't work with char consent
+ ---Solved (changed random numbers process for the vector and also changed consent type from
+ char to string)
+ 
+ Version 2.0 - Program works correctly now.
+ 
+ Size : 243,3 KiB*/
+
+#include &lt;iostream&gt;
+#include &lt;algorithm&gt;    //Library used to call back things like sort function
+#include &lt;time.h&gt;       //We need this to use srand()
+#include &lt;vector&gt;       //Simply the vector lib
+#include &lt;numeric&gt;      //we can use functions like accumulate(begin, end, binary opt) or partial sum like x = y ~ x = y+y ~ x = y+y+y...
+#include &lt;string.h&gt;
+using namespace std;
+
+
+int Generator (int number, int range, int n)                //Pretty standard function to generate random numbers that we'll need later in our main program
+
+{
+    srand(static_cast&lt;const unsigned int&gt;(time(NULL)));
+    number = rand();
+    range = (number % (n + 1));
+    
+    return range;
+    
+};
+
+
+int main ( ){
+    
+    string consent;                                         //Defining a string because in the end we need to ask if the user wants to restart the program
+    
+    do {
+        
+        long double sensors_number, min_t=0.0, max_t=0.0;           //Just declaring some numbers and a char string below
+        
+        vector &lt;int&gt; value_t;                                   //Declaring the vector in which we simulate the temperature readings
+        
+        sensors_number = Generator(1, 1, 10);                   //We use our function to get how many sensors are working from 1 to 10
+        
+        cout &lt;&lt; &quot; active sensors : &quot; &lt;&lt; sensors_number &lt;&lt; endl;
+        
+        if (sensors_number == 0){cout &lt;&lt; &quot; There are no sensors working, check what's happening\n&quot;;}
+        
+        if(sensors_number &gt; 0){
+            
+            for (int i=0; i &lt; sensors_number; i++){                 //we generate random numbers in the vector from 1 to 50 to simulate temp values
+                
+                int n = (rand()%(50+1));                            //Get a random number n between 1 and 50
+                value_t.push_back(n);                               //Push back the number n to the end of the vector
+                cout &lt;&lt; &quot; Sensor &quot; &lt;&lt; i &lt;&lt; &quot; Temperature : &quot; &lt;&lt; value_t.at(i) &lt;&lt; &quot; Celsious degree &quot; &lt;&lt; endl;
+                
+            }
+            
+            min_t = *min_element(value_t.begin(),value_t.end());    //Here we use algorithm lib to get the minimum and the maximum element of the vector (And so the lowest and highest temp value)
+            max_t = *max_element(value_t.begin(),value_t.end());
+            float average_t = accumulate (value_t.begin(), value_t.end(), 0.0/value_t.size());  //accumulate function, it works like this.. value_t.at(1)+value_t.at(2)+...+value_t.end()
+            
+            cout &lt;&lt; &quot; Maximum temperature reached : &quot; &lt;&lt; max_t &lt;&lt; &quot; Celsius degree &quot; &lt;&lt; endl;
+            
+            cout &lt;&lt; &quot; Minimum temperature reached : &quot; &lt;&lt; min_t &lt;&lt; &quot; Celsius degree &quot; &lt;&lt; endl;
+            
+            cout &lt;&lt; &quot; Average temperature reached : &quot; &lt;&lt; average_t/value_t.size() &lt;&lt; &quot; Celsius degree \n\n&quot;;
+            
+            if (average_t/value_t.size() &lt; 10.0 || average_t/value_t.size() &gt; 28.0){                  //check if the average temperature pleases our standards
+                
+                cout &lt;&lt; &quot; Turn the air conditioning on, fool \n&quot;;
+                
+            }
+            
+            else{
+                
+                cout &lt;&lt; &quot; Room temperature is ok &quot;;
+                
+            }
+            
+        }
+        
+        cout &lt;&lt; &quot; Do you want to reiterate the process ? \n &quot;;//that's why we needed that boolean value from the start
+        
+        cin &gt;&gt; consent;
+        
+    }
+    
+    while (consent == &quot;Yes&quot; || consent == &quot;yes&quot; || consent == &quot;Y&quot; || consent == &quot;y&quot; || consent == &quot;Yeah&quot; || consent == &quot;yeah&quot;);
+    
+}
+</code></pre>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>531 Words</p>
+
+            <p><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-calendar"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>2019-05-24 12:24 &#43;0200</p>
+        </div>
+
+        
+            <div class="pagination">
+                <div class="pagination__title">
+                    <span class="pagination__title-h"></span>
+                    <hr />
+                </div>
+
+                <div class="pagination__buttons">
+                    
+                        <span class="button previous">
+                            <a href="/esercizio_2_informatica/">
+                                <span class="button__icon">←</span>
+                                <span class="button__text">Simula una estrazione al lotto e poi stampa il risultato verificando o no la vincita dell&#39;utente</span>
+                            </a>
+                        </span>
+                    
+
+                    
+                        <span class="button next">
+                            <a href="/artists/">
+                                <span class="button__text">Artists</span>
+                                <span class="button__icon">→</span>
+                            </a>
+                        </span>
+                    
+                </div>
+            </div>
+        
+
+        
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+  <div class="footer__inner">
+      
+    
+    <div class="copyright copyright--user"><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener"></a></div>
+    
+</div>
+</footer>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.4c3fb12a087ceed4a52cb5d57068a9795c7069617a01ca70f788052ad66e1791779e6c72686e1dc0ca13dc03b0203204b6566bb0dd1ee80de2b7ff4d8fe53db2.js" integrity="sha512-TD&#43;xKgh87tSlLLXVcGipeVxwaWF6Acpw94gFKtZuF5F3nmxyaG4dwMoT3AOwIDIEtlZrsN0e6A3it/9Nj&#43;U9sg=="></script>
+
+
+
+    </body>
+</html>

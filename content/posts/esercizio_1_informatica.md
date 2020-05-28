@@ -34,7 +34,7 @@ int main ()
     nell'esecuzione di uno dei
     diversi casi di operazione*/
     switch (operazione){
-            
+
         case 1 :
             cout << "Inserisci il primo membro\n";
             cin >> num1;
@@ -43,7 +43,7 @@ int main ()
             risultato = num1+num2;
             cout << "Il risultato è : " << risultato << endl;
             break;
-            
+
         case 2 :
             cout << "Inserisci il primo membro\n";
             cin >> num1;
@@ -52,7 +52,7 @@ int main ()
             risultato = num1-num2;
             cout << "Il risultato è : " << risultato << endl;
             break;
-            
+
         case 3 :
             cout << "Inserisci il primo membro\n";
             cin >> num1;
@@ -61,7 +61,7 @@ int main ()
             risultato = num1*num2;
             cout << "Il risultato è : " << risultato << endl;
             break;
-            
+
         case 4 :
             cout << "Inserisci il numeratore\n";
             cin >> num1;
@@ -70,7 +70,7 @@ int main ()
             risultato = num1/num2;
             cout << "Il risultato è : " << risultato << endl;
             break;
-            
+
         case 5 :
             cout << "Inserisci la base\n";
             cin >> num1;
@@ -79,7 +79,7 @@ int main ()
             risultato = pow(num1, num2);
             cout << "Il risultato è : " << risultato << endl;
             break;
-            
+
         case 6
             :
             cout << "Inserisci il radicando\n";
@@ -89,12 +89,12 @@ int main ()
             risultato = pow(num1, 1/num2);
             cout << "Il risultato è : " << risultato << endl;
             break;
-            
+
         default :
             cout << "Non hai scelto nessuna operazione supportata\n";
             break;
-            
+
     }
-    
+
 }
 ```

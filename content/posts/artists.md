@@ -2,7 +2,7 @@
 title: "Artists"
 date: 2019-05-24T08:42:40+02:00
 url: "/artists"
-draft: false  
+draft: true  
 ---
 
 Collection of various artist pages.

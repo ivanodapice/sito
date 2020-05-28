@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cd Ivano D&#39;Apice/Università</title>
+    <link>/</link>
+    <description>Recent content on cd Ivano D&#39;Apice/Università</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 24 May 2019 12:24:05 +0200</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Creare una calcolatrice in C&#43;&#43;</title>
+      <link>/esercizio_1_informatica/</link>
+      <pubDate>Fri, 24 May 2019 12:24:05 +0200</pubDate>
+      
+      <guid>/esercizio_1_informatica/</guid>
+      <description>Run this program//// main.cpp// EI_ES1//// Created by Ivano D&#39;Apice on 10/05/2019.// Copyright © 2019 Ivano D&#39;Apice. All rights reserved.//#include &amp;lt;iostream&amp;gt;//includo la libreria math.h per utilizzare funzioni come pow() o M_PI#include &amp;lt;math.h&amp;gt;using namespace std;int main (){//dichiarazione delle variabiliint operazione;float num1,num2,risultato;cout &amp;lt;&amp;lt; &amp;quot;Calcolatrice che consente di calcolare addizioni, sottrazioni ,moltiplicazioni ,divisioni ,potenze, radici\n&amp;quot;;cout &amp;lt;&amp;lt; &amp;quot;Scegli : \n 1.</description>
+    </item>
+    
+    <item>
+      <title>Dato un array di n elementi, calcolare il massimo elemento in input dell&#39;array</title>
+      <link>/esercizio_4_informatica/</link>
+      <pubDate>Fri, 24 May 2019 12:24:05 +0200</pubDate>
+      
+      <guid>/esercizio_4_informatica/</guid>
+      <description>Run this program//// main.cpp// EI_ES4//// Created by Ivano D&#39;Apice on 24/05/2019.// Copyright © 2019 Ivano D&#39;Apice. All rights reserved.//#include &amp;lt;iostream&amp;gt;#include &amp;quot;array&amp;quot;using namespace std;int main (){array &amp;lt;int, 10000&amp;gt; myArray {11,23,44,31,23,45,65,33,22,12};int max = 0, numero;cout &amp;lt;&amp;lt;&amp;quot;Quanto vuoi sia grande il vettore? \n&amp;quot;;cout &amp;lt;&amp;lt;&amp;quot;Numero massimo inseribile 1000\n&amp;quot;;cin &amp;gt;&amp;gt; numero;if (numero &amp;gt; 1000){cout &amp;lt;&amp;lt;&amp;quot;Hai inserito un numero troppo grande, riprova&amp;quot;;return 0;}if (numero == 0) {cout &amp;lt;&amp;lt;&amp;quot;Array di 0 elementi&amp;quot;&amp;lt;&amp;lt;endl; return 0;}cout &amp;lt;&amp;lt; &amp;quot;Inserisci i numeri nel vettore\n&amp;quot;;for (unsigned int i=0; i&amp;lt;numero; i++){cin &amp;gt;&amp;gt; myArray[i];}for (unsigned int i=0; i&amp;lt;numero; i++){if (myArray.</description>
+    </item>
+    
+    <item>
+      <title>Numeri primi</title>
+      <link>/esercizio_7_informatica/</link>
+      <pubDate>Fri, 24 May 2019 12:24:05 +0200</pubDate>
+      
+      <guid>/esercizio_7_informatica/</guid>
+      <description>Run this program#include &amp;lt;iostream&amp;gt;using namespace std;/*Un numero primo e&#39; divisibile per 1 e per se stesso*/int primi(int valore, int x)//funzione per verificare se un numero e&#39; primo{if (valore==0){cout&amp;lt;&amp;lt;&amp;quot;Il numero 0 e&#39; primo&amp;quot;&amp;lt;&amp;lt;endl;}//per evitare problemi dichiariamo di base che 1 e 0 sono numeri primiif (valore==1){cout&amp;lt;&amp;lt;&amp;quot;Il numero 1 e&#39; primo&amp;quot;&amp;lt;&amp;lt;endl;}if(valore&amp;gt;1){//calcoliamo se il numero e&#39; primo solamente se e&#39; maggiore di 2, perche&#39; i casi precedenti sono stati studiati primafor (int i=2;i&amp;lt;10;i++){//dividiamo il valore iniziale per ogni numero da 2 a 9if (valore%i==0 &amp;amp;&amp;amp; i!</description>
+    </item>
+    
+    <item>
+      <title>Programma per calcolare alcune aree di figure piane</title>
+      <link>/esercizio_6_informatica/</link>
+      <pubDate>Fri, 24 May 2019 12:24:05 +0200</pubDate>
+      
+      <guid>/esercizio_6_informatica/</guid>
+      <description>Run this program//// main.cpp// EI_ES6//// Created by Ivano D&#39;Apice on 12/04/2019.// Copyright © 2019 Ivano D&#39;Apice. All rights reserved.//#include &amp;lt;iostream&amp;gt;#include &amp;lt;math.h&amp;gt;using namespace std;int main(){long long figura;long double lato, base, altezza, diagonale_minore, diagonale_maggiore, raggio, base_maggiore, base_minore;cout &amp;lt;&amp;lt; &amp;quot;Scegli la figura piana di cui calcolare l&#39;area in cm² : \n 1. Quadrato\n 2. Rettangolo\n 3. Triangolo\n 4. Parallelogramma\n 5. Rombo\n 6.</description>
+    </item>
+    
+    <item>
+      <title>Risoluzione di una equazione di secondo grado</title>
+      <link>/esercizio_5_informatica/</link>
+      <pubDate>Fri, 24 May 2019 12:24:05 +0200</pubDate>
+      
+      <guid>/esercizio_5_informatica/</guid>
+      <description>Run this program// main.cpp// EI_ES5//// Created by Ivano D&#39;Apice on 08/04/2019.// Copyright © 2019 Ivano D&#39;Apice. All rights reserved.#include &amp;lt;iostream&amp;gt;#include &amp;lt;stdio.h&amp;gt;#include &amp;lt;math.h&amp;gt;using namespace std;int main(){int a,b,c; //Dichiariamo le nostre variabili come intericout &amp;lt;&amp;lt;&amp;quot;Inserire i valori di a b e c nella forma di ax^2+bx+c :\n&amp;quot;&amp;lt;&amp;lt;endl;cout &amp;lt;&amp;lt;&amp;quot;a:&amp;quot;;cin &amp;gt;&amp;gt; a;cout &amp;lt;&amp;lt;&amp;quot;b:&amp;quot;;cin &amp;gt;&amp;gt; b;cout &amp;lt;&amp;lt;&amp;quot;c:&amp;quot;;cin &amp;gt;&amp;gt; c;long double delta; //Dichiariamo il delta come double o float in modo che ammetta anche numeri dopo la virgoladelta = sqrt((b*b)-(4*(a*c))); //Facciamo assumere al delta il valore dato dalla formula a destra dell&#39;uguaglianzaif (delta&amp;gt;0){cout &amp;lt;&amp;lt;&amp;quot;il delta è maggiore di 0 ed ha valore : &amp;quot;&amp;lt;&amp;lt;delta&amp;lt;&amp;lt; endl;long double risultato1;risultato1=((((-b)+delta))/(2*a));long double risultato2;risultato2=((((-b)-delta))/(2*a));cout&amp;lt;&amp;lt;&amp;quot;Abbiamo dure radici del polinomio, ovvero:\n&amp;quot;&amp;lt;&amp;lt;endl;cout&amp;lt;&amp;lt;risultato1&amp;lt;&amp;lt;endl;cout&amp;lt;&amp;lt;&amp;quot;e&amp;quot;&amp;lt;&amp;lt;endl;cout&amp;lt;&amp;lt;risultato2&amp;lt;&amp;lt;endl;return 0;}if (delta==0){cout &amp;lt;&amp;lt;&amp;quot;il delta è uguale a 0 ed ha valore : &amp;quot;&amp;lt;&amp;lt;delta&amp;lt;&amp;lt; endl;long double risultato1;risultato1=((-b)%(2*a));cout&amp;lt;&amp;lt;&amp;quot;Abbiamo un unica radice del polinomio, ovvero:\n&amp;quot;&amp;lt;&amp;lt;endl;cout&amp;lt;&amp;lt;risultato1;return 0;}if (delta&amp;lt;0){cout&amp;lt;&amp;lt;&amp;quot;l&#39;equazione non ammette soluzioni\n&amp;quot;;return 0;}} </description>
+    </item>
+    
+    <item>
+      <title>Simula una estrazione al lotto e poi stampa il risultato verificando o no la vincita dell&#39;utente</title>
+      <link>/esercizio_2_informatica/</link>
+      <pubDate>Fri, 24 May 2019 12:24:05 +0200</pubDate>
+      
+      <guid>/esercizio_2_informatica/</guid>
+      <description>Run this program//// main.cpp// EI_ES2//// Created by Ivano D&#39;Apice on 16/05/2019.// Copyright © 2019 Ivano D&#39;Apice. All rights reserved.//#include &amp;lt;iostream&amp;gt;#include &amp;lt;vector&amp;gt;#include &amp;lt;time.h&amp;gt;#include &amp;lt;algorithm&amp;gt;using namespace std;vector&amp;lt;int&amp;gt; myVector; //dichiaro 2 vettorivector&amp;lt;int&amp;gt; myVector2;int Generatore() { //sviluppo una funzione richiamabile che mi dia un numero randomico nel range desiderato ( 1 a 90 )int numero = rand();int range = (numero % 90) + 1;return range;}int main(){cout &amp;lt;&amp;lt; &amp;quot;Benvenuto nel programma automatico Superenasei, verranno generati 6 numeri tra 1 e 90 che se uguali a quelli da te scelti ti daranno un premio di 1 MLN di euro\n\n\n&amp;quot;;int input = 0; //inizializziamo il nostro input a 0 per non partire dal numero successivosrand(static_cast&amp;lt;const unsigned int&amp;gt;(time(NULL))); //inizializzo un seme casualecout &amp;lt;&amp;lt; &amp;quot;Scegli un numero massimo di sei numeri compresi tra 1 e 90 : &amp;quot; &amp;lt;&amp;lt; endl;for (int i = 0; i &amp;lt; 6; i++) //adesso facciamo entrare tanti input quanto il valore posto maggiore di i nel nostro vettore{cin &amp;gt;&amp;gt; input;if (input &amp;gt; 90 || input &amp;lt; 1) {cout &amp;lt;&amp;lt; &amp;quot;Hai inserito un numero fuori dal range, riavvia il programma\n&amp;quot;;return 0; }//qui verifichiamo la validita dei numeri immessi rispetto al nostro dominio di rangeelse { cout &amp;lt;&amp;lt; &amp;quot;Numero valido\n&amp;quot;; }bool valid = true; //dichiariamo la variabile booleana validfor (int i = 0; i &amp;lt; myVector.</description>
+    </item>
+    
+    <item>
+      <title>Write a program in C&#43;&#43; coding language that simulate the periodic acquisition by sensors (In a specific Museum&#39;s Room) of a certain number of temperature measures. Those measures must be set randomly in a range of one to fifty. The number of sensors that acquires temperature also must be set randomly but in a range of 1 to 10 pieces. Once we get those measurements of temperature the program must calculate the value of minimum, maximum and the average of our temperature values. With the average value of the temperature, if we get a lower value of 10 or a higher value of 28 Celsius degrees the program must alert to turn on the air conditioning by a message of video output.</title>
+      <link>/esercizio_3_informatica/</link>
+      <pubDate>Fri, 24 May 2019 12:24:05 +0200</pubDate>
+      
+      <guid>/esercizio_3_informatica/</guid>
+      <description>Run this program//// main.cpp// EI_ES3//// Created by Ivano D&#39;Apice on 17/05/2019.// Copyright © 2019 Ivano D&#39;Apice. All rights reserved.///*Changelog :Version 1.0 - Got some bugs... the temperature shows always the same value with Generate()structure, and my reiteration process doesn&#39;t work with char consent---Solved (changed random numbers process for the vector and also changed consent type fromchar to string)Version 2.</description>
+    </item>
+    
+    <item>
+      <title>Artists</title>
+      <link>/artists/</link>
+      <pubDate>Fri, 24 May 2019 08:42:40 +0200</pubDate>
+      
+      <guid>/artists/</guid>
+      <description>Collection of various artist pages.
+ HREFNA SIGURÐARDÓTTIR 11allsta11 M. Kungl Matthew Grabelsky  </description>
+    </item>
+    
+    <item>
+      <title>Informatica</title>
+      <link>/informatica/</link>
+      <pubDate>Fri, 24 May 2019 08:42:40 +0200</pubDate>
+      
+      <guid>/informatica/</guid>
+      <description>Pagina creata per conservare in un unico database i progetti del corso di elementi di informatica , Ingegneria Edile - 2019
+ MATERIALE DIDATTICO INFO Esercizio 1 Esercizio 2 Esercizio 3 Esercizio 4 Esercizio 5 Esercizio 6 Esercizio 7  </description>
+    </item>
+    
+    <item>
+      <title>Matematica</title>
+      <link>/matematica/</link>
+      <pubDate>Fri, 24 May 2019 08:42:40 +0200</pubDate>
+      
+      <guid>/matematica/</guid>
+      <description>Pagina creata per conservare gli esercizi del corso di Analisi matematica II , Ingegneria Edile - 2019
+Massimi e minimi  Esercizio 1  </description>
+    </item>
+    
+    <item>
+      <title>Calcolare gli eventuali punti di minimo o massimo della seguente funzione</title>
+      <link>/max_min1/</link>
+      <pubDate>Fri, 24 May 2019 01:19:27 +0200</pubDate>
+      
+      <guid>/max_min1/</guid>
+      <description>$$f_{x}=x^3+3xy^2-15x-12y$$
+$$\cdot f_{x}=3x^{2}+3y^{2}-15$$ $$=x^{2}+y^{2}-5$$
+$$\cdot f_{y}=6xy-12$$ $$=xy-2$$
+$$\begin{Bmatrix} x^{2}+y^{2}=5\
+y=\frac{2}{x} \end{Bmatrix}$$ $$\begin{Bmatrix} x^{2}+\frac{4}{x^{2}}=5\
+y=\frac{2}{x} \end{Bmatrix}$$</description>
+    </item>
+    
+  </channel>
+</rss>

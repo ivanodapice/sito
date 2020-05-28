@@ -48,7 +48,7 @@ disableHugoGeneratorInject = false
   fractions = true
   smartypants = true
   angledQuotes = true
-  
+
 
 
 
@@ -124,20 +124,14 @@ disableHugoGeneratorInject = false
 
 [menu]
   [[menu.main]]
-    
+
     name       = "Informatica"
     url        = "/informatica"
 
   [[menu.main]]
-    
+
     name       = "Matematica"
     url        = "/matematica"
-
-  [[menu.main]]
-    
-    name       = "Artists"
-    url        = "/artists"
-
 
 [[params.page]]
     link = "/esercizio_1_informatica"
@@ -156,7 +150,7 @@ disableHugoGeneratorInject = false
 
 [[params.page]]
     link = "/esercizio_6_informatica"
-  
+
 [[params.page]]
     link = "/esercizio_7_informatica"
 

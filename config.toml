@@ -157,5 +157,8 @@ disableHugoGeneratorInject = false
 [[params.page]]
     link = "/Max_Min1"
 
+[[params.page]]
+    link = "/Max_Min2"
+
 [imaging]
     quality = 75

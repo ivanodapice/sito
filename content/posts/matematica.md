@@ -10,3 +10,4 @@ Pagina creata per conservare gli esercizi del corso di *`Analisi matematica II`*
 *`Massimi e minimi`*
 ---
 * [Esercizio 1](/Max_Min1/)
+* [Esercizio 2](/Max_Min2/)

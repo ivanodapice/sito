@@ -6,7 +6,7 @@ draft: false
 showDate: true
 ---
 
-$$f_{x,y}=e^x(4x^2+y^2)$$
+$$f_{x,y}=e^y(4x^2+y^2)$$
 
 <p align="center">Calcoliamo le derivate prime :
 

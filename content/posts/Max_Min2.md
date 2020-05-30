@@ -55,7 +55,7 @@ $$H(P_{2})=\begin{vmatrix}
 8e^{y} & 8e^{y}\\
 8e^{y} & e^{y}(4x^2+y^2+4y+2)
 \end{vmatrix}
-=(\frac{-1}{e}+\frac{8}{e})-(8/e)^2>0
+=(-\frac{1}{e}+\frac{8}{e})-(8/e)^2>0
 $$
 </p>
 <p align="center">Cosi' come in P1 avremo un punto di minimo</p>

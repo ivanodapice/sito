@@ -20,7 +20,7 @@ $$f_{x,y}=e^x(4x^2+y^2)$$
 
 $$\begin{Bmatrix}
 8xe^{y}=0\\
-e^{y}(4x^2+y^2+2y)
+e^{y}(4x^2+y^2+2y)=0
 \end{Bmatrix}$$
 $$\begin{Bmatrix}
 8x=0\\
@@ -44,18 +44,18 @@ $$f_{xy}=8xe^{y}$$
 </p>
 <p align="center">Adesso calcoliamo gli hessiani nei due punti
 $$H(P_{1})=\begin{vmatrix}
-6x & 6y\\
-6y & 6x
+8e^{y} & 8xe^{y}\\
+8xe^{y} & e^{y}(4x^2+y^2+4y+2)
 \end{vmatrix}
-=36-144<0
+=16>0
 $$
 </p>
-<p align="center">Dato che il primo valore dell'hessiano e' positivo e il determinante e' negativo, il punto P1 sara' di sella
+<p align="center">Dato che il primo valore dell'hessiano e' positivo e il determinante e' positivo, il punto P1 sara' di minimo
 $$H(P_{2})=\begin{vmatrix}
-6x & 6y\\
-6y & 6x
+8e^{y} & 8e^{y}\\
+8e^{y} & e^{y}(4x^2+y^2+4y+2)
 \end{vmatrix}
-=36-144<0
+=(-1/e+8/e)-(8/e)^2>0
 $$
 </p>
-<p align="center">Cosi' come in P1 avremo un punto di sella</p>
+<p align="center">Cosi' come in P1 avremo un punto di minimo</p>

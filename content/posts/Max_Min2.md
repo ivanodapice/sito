@@ -60,6 +60,6 @@ $$
 </p>
 <p align="center">Cosi' come in P1 avremo un punto di minimo</p>
 <p align="center">
-    <img src = "download.png"
+    <img src = "https://m.media-amazon.com/images/I/415YCQ5ewDL._SL500_.jpg"
          alt = "Picture of a happy monkey" />
 </p>

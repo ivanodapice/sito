@@ -6,4 +6,14 @@ draft: false
 showDate: true
 ---
 
-$$f_{x}=x^3+3xy^2-15x-12y$$
+$$f_{x,y}=e^x(4x^2+y^2)$$
+
+<p align="center">Calcoliamo le derivate prime :
+
+   $$\cdot f_{x}=3x^{2}+3y^{2}-15$$
+   $$=x^{2}+y^{2}-5$$
+
+   $$\cdot f_{y}=6xy-12$$
+   $$=xy-2$$
+
+</p>

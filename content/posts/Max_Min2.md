@@ -10,9 +10,9 @@ $$f_{x,y}=e^y(4x^2+y^2)$$
 
 <p align="center">Calcoliamo le derivate prime :
 
-   $$\cdot f_{x}=8xe^{y}$$
+   $$ f_{x}=8xe^{y}$$
 
-   $$\cdot f_{y}=e^{y}(4x^2+y^2+2y)$$
+   $$ f_{y}=e^{y}(4x^2+y^2+2y)$$
 
 </p>
 
@@ -60,6 +60,6 @@ $$
 </p>
 <p align="center">Cosi' come in P1 avremo un punto di minimo</p>
 <p align="center">
-    <img src = "https://m.media-amazon.com/images/I/415YCQ5ewDL._SL500_.jpg"
-         alt = "Picture of a happy monkey" />
+    <img src = "https://i.imgur.com/Dl9MY9h.png"
+         alt = "function graph" />
 </p>

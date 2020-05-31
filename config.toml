@@ -1,5 +1,5 @@
 baseURL = ""
-title   = "cd Ivano D'Apice/Università"
+title   = "cd Ivano_D'Apice/Projects"
 
 DefaultContentLanguage = "en"
 
@@ -63,7 +63,7 @@ disableHugoGeneratorInject = false
   keywords = ""
   images = [""]
 
-  homeSubtitle = "touch .new_life"
+  homeSubtitle = "touch .new_website"
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
   # gitUrl = ""

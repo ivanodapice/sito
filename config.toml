@@ -172,4 +172,4 @@ disableHugoGeneratorInject = false
     link = "/jojo0101"
 
 [imaging]
-    quality = 75
+    quality = 100

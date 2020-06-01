@@ -57,3 +57,22 @@ $$H(P_{2})=\begin{vmatrix}
 $$
 </p>
 <p align="center">Cosi' come in P1 avremo un punto di sella</p>
+
+\documentclass{article}
+\usepackage{tikz}
+\usetikzlibrary{calc}
+
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0)coordinate (O)--++(30:1)coordinate (A)--++(90:1.5)coordinate (B)--++(150:1)coordinate (C)--cycle;
+\draw ($(A)!0.5!(B)$)--++(0:1)node[right]{$F$};
+%\draw ($(O)!0.5!(A)$)--++(-90:1)--++(180:2)node[left]{$b$};
+%\draw ($(O)!0.25!(A)$)--++(-90:0.5)--++(180:1.75)node[left]{$a$};
+%\draw ($(O)!0.75!(A)$)--++(-90:1.5)--++(180:2.25)node[left]{$c$};
+\foreach \y/\t in {0.1/1,0.25/2,0.65/11,0.8/12} {
+\draw ($(C)! \y*1.1 !(O)$)--++(180:1) node[left] {$X \t$};}
+\draw ($(C)! 0.4*1.1 !(O)$)--++(180:1) node[left] {$\vdots$};
+
+\end{tikzpicture}
+
+\end{document}

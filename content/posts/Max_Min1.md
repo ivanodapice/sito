@@ -58,21 +58,34 @@ $$
 </p>
 <p align="center">Cosi' come in P1 avremo un punto di sella</p>
 
-\documentclass{article}
-\usepackage{tikz}
-\usetikzlibrary{calc}
 
-\begin{document}
-\begin{tikzpicture}
-\draw (0,0)coordinate (O)--++(30:1)coordinate (A)--++(90:1.5)coordinate (B)--++(150:1)coordinate (C)--cycle;
-\draw ($(A)!0.5!(B)$)--++(0:1)node[right]{$F$};
-%\draw ($(O)!0.5!(A)$)--++(-90:1)--++(180:2)node[left]{$b$};
-%\draw ($(O)!0.25!(A)$)--++(-90:0.5)--++(180:1.75)node[left]{$a$};
-%\draw ($(O)!0.75!(A)$)--++(-90:1.5)--++(180:2.25)node[left]{$c$};
-\foreach \y/\t in {0.1/1,0.25/2,0.65/11,0.8/12} {
-\draw ($(C)! \y*1.1 !(O)$)--++(180:1) node[left] {$X \t$};}
-\draw ($(C)! 0.4*1.1 !(O)$)--++(180:1) node[left] {$\vdots$};
 
-\end{tikzpicture}
 
-\end{document}
+
+$$\usetikzlibrary{decorations.pathmorphing}
+\begin{tikzpicture}[line width=0.2mm,scale=1.0545]\small
+\tikzset{>=stealth}
+\tikzset{snake it/.style={->,semithick,
+decoration={snake,amplitude=.3mm,segment length=2.5mm,post length=0.9mm},decorate}}
+\def\h{3}
+\def\d{0.2}
+\def\ww{1.4}
+\def\w{1+\ww}
+\def\p{1.5}
+\def\r{0.7}
+\coordinate[label=below:$A_1$] (A1) at (\ww,\p);
+\coordinate[label=above:$B_1$] (B1) at (\ww,\p+\h);
+\coordinate[label=below:$A_2$] (A2) at (\w,\p);
+\coordinate[label=above:$B_2$] (B2) at (\w,\p+\h);
+\coordinate[label=left:$C$] (C1) at (0,0);
+\coordinate[label=left:$D$] (D) at (0,\h);
+\draw[fill=blue!14](A2)--(B2)-- ++(\d,0)-- ++(0,-\h)--cycle;
+\draw[gray,thin](C1)-- +(\w+\d,0);
+\draw[dashed,gray,fill=blue!5](A1)-- (B1)-- ++(\d,0)-- ++(0,-\h)-- cycle;
+\draw[dashed,line width=0.14mm](A1)--(C1)--(D)--(B1);
+\draw[snake it](C1)--(A2) node[pos=0.6,below] {$c\Delta t$};
+\draw[->,semithick](\ww,\p+0.44*\h)-- +(\w-\ww,0) node[pos=0.6,above] {$v\Delta t$};
+\draw[snake it](D)--(B2);
+\draw[thin](\r,0) arc (0:atan2(\p,\w):\r) node[midway,right,yshift=0.06cm] {$\theta$};
+\draw[opacity=0](-0.40,-0.14)-- ++(0,5.06);
+\end{tikzpicture}$$

@@ -136,7 +136,7 @@ disableHugoGeneratorInject = false
   [[menu.main]]
 
     name       = "Jojolion"
-    url        = "/jojolion/jojo0100"
+    url        = "/jojo0100"
 
 [[params.page]]
     link = "/esercizio_1_informatica"
@@ -166,10 +166,10 @@ disableHugoGeneratorInject = false
     link = "/Max_Min2"
 
 [[params.page]]
-    link = "/jojolion/jojo0100"
+    link = "/jojo0100"
 
 [[params.page]]
-    link = "/jojolion/jojo0101"
+    link = "/jojo0101"
 
 [imaging]
     quality = 100

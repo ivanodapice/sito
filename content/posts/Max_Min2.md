@@ -41,7 +41,7 @@ $$f_{xx}=8e^{y}$$
 $$f_{yy}=e^{y}(4x^2+y^2+4y+2)$$
 $$f_{xy}=8xe^{y}$$
 </p>
-<p align="center">Adesso calcoliamo gli hessiani nei due punti
+<p align="center">Adesso calcoliamo l'hessiano nel punto individuato
 $$H(P_{1})=\begin{vmatrix}
 8e^{y} & 8xe^{y}\\
 8xe^{y} & e^{y}(4x^2+y^2+4y+2)

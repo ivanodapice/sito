@@ -50,7 +50,6 @@ $$H(P_{1})=\begin{vmatrix}
 $$
 </p>
 <p align="center">Dato che il primo valore dell'hessiano e' positivo e il determinante e' positivo, il punto P1 sara' di minimo</p>
-<p align="center">Cosi' come in P1 avremo un punto di minimo</p>
 <p align="center">
     <img src = "https://i.imgur.com/Dl9MY9h.png"
          alt = "function graph" />

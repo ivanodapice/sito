@@ -32,9 +32,8 @@ y^2+y=0
 \end{Bmatrix}$$
 </p>
 
-<p align="center">Dopo aver risolto questo sistema troviamo due punti,
+<p align="center">Dopo aver risolto questo sistema troviamo un solo punto,
 $$P_1=(0,0)$$
-$$P_2=(0,-1)$$
 </p>
 
 <p align="center">Ora calcoliamo le derivate seconde :
@@ -50,14 +49,7 @@ $$H(P_{1})=\begin{vmatrix}
 =16>0
 $$
 </p>
-<p align="center">Dato che il primo valore dell'hessiano e' positivo e il determinante e' positivo, il punto P1 sara' di minimo
-$$H(P_{2})=\begin{vmatrix}
-8e^{y} & 8e^{y}\\
-8e^{y} & e^{y}(4x^2+y^2+4y+2)
-\end{vmatrix}
-=(-\frac{1}{e}+\frac{8}{e})-(8/e)^2>0
-$$
-</p>
+<p align="center">Dato che il primo valore dell'hessiano e' positivo e il determinante e' positivo, il punto P1 sara' di minimo</p>
 <p align="center">Cosi' come in P1 avremo un punto di minimo</p>
 <p align="center">
     <img src = "https://i.imgur.com/Dl9MY9h.png"

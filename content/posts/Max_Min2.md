@@ -32,8 +32,9 @@ y^2+y=0
 \end{Bmatrix}$$
 </p>
 
-<p align="center">Dopo aver risolto questo sistema troviamo un solo punto,
+<p align="center">Dopo aver risolto questo sistema troviamo due punti,
 $$P_1=(0,0)$$
+$$P_2=(0,-1)$$
 </p>
 
 <p align="center">Ora calcoliamo le derivate seconde :
@@ -41,15 +42,21 @@ $$f_{xx}=8e^{y}$$
 $$f_{yy}=e^{y}(4x^2+y^2+4y+2)$$
 $$f_{xy}=8xe^{y}$$
 </p>
-<p align="center">Adesso calcoliamo l'hessiano nel punto individuato
+<p align="center">Adesso calcoliamo gli hessiani nei punti individuati
 $$H(P_{1})=\begin{vmatrix}
 8e^{y} & 8xe^{y}\\
 8xe^{y} & e^{y}(4x^2+y^2+4y+2)
 \end{vmatrix}
 =16>0
 $$
+$$H(P_{2})=\begin{vmatrix}
+8e^{y} & 8xe^{y}\\
+8xe^{y} & e^{y}(4x^2+y^2+4y+2)
+\end{vmatrix}
+=-8.66<0
+$$
 </p>
-<p align="center">Dato che il primo valore dell'hessiano e' positivo e il determinante e' positivo, il punto P1 sara' di minimo</p>
+<p align="center">Dato che il primo valore dell'hessiano e' positivo e il determinante e' positivo, il punto P1 sara' di minimo mentre P2 sarà un massimo relativo</p>
 <p align="center">
     <img src = "https://i.imgur.com/Dl9MY9h.png"
          alt = "function graph" />

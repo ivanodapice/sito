@@ -28,13 +28,13 @@ $$\begin{Bmatrix}
 \end{Bmatrix}$$
 $$\begin{Bmatrix}
 x=0\\
-y^2+y=0
+y^2+2y=0
 \end{Bmatrix}$$
 </p>
 
 <p align="center">Dopo aver risolto questo sistema troviamo due punti,
 $$P_1=(0,0)$$
-$$P_2=(0,-1)$$
+$$P_2=(0,-2)$$
 </p>
 
 <p align="center">Ora calcoliamo le derivate seconde :
@@ -53,7 +53,7 @@ $$H(P_{2})=\begin{vmatrix}
 8e^{y} & 8xe^{y}\\
 8xe^{y} & e^{y}(4x^2+y^2+4y+2)
 \end{vmatrix}
-=-8.66<0
+=-1.17<0
 $$
 </p>
 <p align="center">Dato che il primo valore dell'hessiano e' positivo e il determinante e' positivo, il punto P1 sara' di minimo mentre P2 sarà un massimo relativo</p>

@@ -133,10 +133,10 @@ disableHugoGeneratorInject = false
     name       = "Matematica"
     url        = "/matematica"
 
-  [[menu.main]]
+  #[[menu.main]]
 
-    name       = "Jojolion"
-    url        = "/jojo0100"
+    #name       = "Jojolion"
+    #url        = "/jojo0100"
 
 [[params.page]]
     link = "/esercizio_1_informatica"

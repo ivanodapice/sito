@@ -133,10 +133,10 @@ disableHugoGeneratorInject = false
     name       = "Matematica"
     url        = "/matematica"
 
-  #[[menu.main]]
+  [[menu.main]]
 
-    #name       = "Jojolion"
-    #url        = "/jojo0100"
+    name       = "Yarr!"
+    url        = "/yarr"
 
 [[params.page]]
     link = "/esercizio_1_informatica"
@@ -166,10 +166,10 @@ disableHugoGeneratorInject = false
     link = "/Max_Min2"
 
 [[params.page]]
-    link = "/jojo0100"
+    link = "/yarr"
 
 [[params.page]]
-    link = "/jojo0101"
+    link = "/abenobashi"
 
 [imaging]
     quality = 100

@@ -1,0 +1,12 @@
+---
+title: "Yarr!"
+date: 2020-06-01T08:42:40+02:00
+url: "/yarr"
+draft: true
+---
+
+<p align="center">
+  #<a href="https://ivanodapice.netlify.app/jojo0101/"</a>
+    #<img src = "https://i.imgur.com/fgNxn2v.png"
+      #alt = "jojolion ch01 00"/>
+</p>

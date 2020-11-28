@@ -168,8 +168,5 @@ disableHugoGeneratorInject = false
 [[params.page]]
     link = "/yarr"
 
-[[params.page]]
-    link = "/abenobashi"
-
 [imaging]
     quality = 100

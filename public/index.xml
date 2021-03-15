@@ -1,15 +1,63 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>cd Ivano D&#39;Apice/Università</title>
+    <title>cd Ivano_D&#39;Apice/Projects</title>
     <link>/</link>
-    <description>Recent content on cd Ivano D&#39;Apice/Università</description>
+    <description>Recent content on cd Ivano_D&#39;Apice/Projects</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 24 May 2019 12:24:05 +0200</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2020 08:42:40 +0200</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>/jojo0101/</link>
+      <pubDate>Mon, 01 Jun 2020 08:42:40 +0200</pubDate>
+      
+      <guid>/jojo0101/</guid>
+      <description></description>
+    </item>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Appunti</title>
+      <link>/appunti/</link>
+      <pubDate>Mon, 01 Jun 2020 08:42:40 +0200</pubDate>
+      
+      <guid>/appunti/</guid>
+      <description>Fondamenti di Tecnica della Tecnologia Edilizia #the-canvas {border: 1px solid black;direction: ltr;width: 100%;height: auto;}#paginator{text-align: center;margin-bottom: 10px;}PreviousNext&amp;nbsp; &amp;nbsp;Page:  / window.onload = function() {var url = &#34;&#34; + &#34;.\/sito\/content\/posts\/document.pdf&#34;;var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;var pdfDoc = null,pageNum = 1,pageRendering = false,pageNumPending = null,scale = 3,canvas = document.</description>
+    </item>
     
+    <item>
+      <title>Jojolion Volume 1</title>
+      <link>/jojo0100/</link>
+      <pubDate>Mon, 01 Jun 2020 08:42:40 +0200</pubDate>
+      
+      <guid>/jojo0100/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Calcolare gli eventuali punti di minimo o massimo della seguente funzione</title>
+      <link>/Max_Min2/</link>
+      <pubDate>Thu, 28 May 2020 01:19:27 +0200</pubDate>
+      
+      <guid>/Max_Min2/</guid>
+      <description>$$f_{x,y}=e^y(4x^2+y^2)$$
+$$ f_{x}=8xe^{y}$$
+$$ f_{y}=e^{y}(4x^2+y^2+2y)$$
+$$\begin{Bmatrix} 8xe^{y}=0\
+e^{y}(4x^2+y^2+2y)=0 \end{Bmatrix}$$ $$\begin{Bmatrix} 8x=0\
+4x^2+y^2+2y=0 \end{Bmatrix}$$ $$\begin{Bmatrix} x=0\
+y^2+2y=0 \end{Bmatrix}$$</description>
+    </item>
+    
+    <item>
+      <title>Abenobashi</title>
+      <link>/abenobashi/</link>
+      <pubDate>Fri, 24 May 2019 12:24:05 +0200</pubDate>
+      
+      <guid>/abenobashi/</guid>
+      <description>Abenobashi - Il quartiere commerciale di magia (アベノ橋魔法☆商店街 Abenobashi mahō shōtengai?) è una serie televisiva anime di 13 episodi prodotta dallo studio Gainax e diretta da Hiroyuki Yamaga. Un adattamento manga in due volumi scritto da Satoru Akahori e disegnato da Ryusei Deguchi è stato serializzato sulla rivista Afternoon di Kōdansha dal 2001 al 2002.
+In Italia l&amp;rsquo;anime è stato pubblicato in DVD da Shin Vision e trasmesso nel 2005 su MTV Italia, mentre i relativi adattamenti sono inediti.</description>
+    </item>
     
     <item>
       <title>Creare una calcolatrice in C&#43;&#43;</title>
@@ -100,16 +148,17 @@
       <pubDate>Fri, 24 May 2019 08:42:40 +0200</pubDate>
       
       <guid>/matematica/</guid>
-      <description>Pagina creata per conservare gli esercizi del corso di Analisi matematica II , Ingegneria Edile - 2019
-Massimi e minimi  Esercizio 1  </description>
+      <description>https://mega.nz/folder/JRUyhIhD#xGj1Vd2jd--gIVJpYm4s9w
+Pagina creata per conservare gli esercizi del corso di Analisi matematica II , Ingegneria Edile - 2019
+Massimi e minimi  Esercizio 1 Esercizio 2  </description>
     </item>
     
     <item>
       <title>Calcolare gli eventuali punti di minimo o massimo della seguente funzione</title>
-      <link>/max_min1/</link>
+      <link>/Max_Min1/</link>
       <pubDate>Fri, 24 May 2019 01:19:27 +0200</pubDate>
       
-      <guid>/max_min1/</guid>
+      <guid>/Max_Min1/</guid>
       <description>$$f_{x}=x^3+3xy^2-15x-12y$$
 $$\cdot f_{x}=3x^{2}+3y^{2}-15$$ $$=x^{2}+y^{2}-5$$
 $$\cdot f_{y}=6xy-12$$ $$=xy-2$$

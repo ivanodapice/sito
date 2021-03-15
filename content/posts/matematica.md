@@ -5,8 +5,6 @@ url: "/matematica"
 draft: true
 ---
 
-https://mega.nz/folder/JRUyhIhD#xGj1Vd2jd--gIVJpYm4s9w
-
 Pagina creata per conservare gli esercizi del corso di *`Analisi matematica II`* , Ingegneria Edile - 2019
 
 *`Massimi e minimi`*

@@ -2,13 +2,231 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
     <channel>
-        <title>Posts on cd Ivano D&#39;Apice/Università</title>
+        <title>Posts on cd Ivano_D&#39;Apice/Projects</title>
         <link>/posts/</link>
-        <description>Recent content in Posts on cd Ivano D&#39;Apice/Università</description>
+        <description>Recent content in Posts on cd Ivano_D&#39;Apice/Projects</description>
         <generator>Hugo -- gohugo.io</generator>
         <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;</copyright>
-        <lastBuildDate>Fri, 24 May 2019 12:24:05 +0200</lastBuildDate>
+        <lastBuildDate>Mon, 01 Jun 2020 08:42:40 +0200</lastBuildDate>
         <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title></title>
+            <link>/jojo0101/</link>
+            <pubDate>Mon, 01 Jun 2020 08:42:40 +0200</pubDate>
+            
+            <guid>/jojo0101/</guid>
+            <description></description>
+            <content type="html"><![CDATA[<!-- raw HTML omitted -->
+]]></content>
+        </item>
+        
+        <item>
+            <title>Appunti</title>
+            <link>/appunti/</link>
+            <pubDate>Mon, 01 Jun 2020 08:42:40 +0200</pubDate>
+            
+            <guid>/appunti/</guid>
+            <description>Fondamenti di Tecnica della Tecnologia Edilizia #the-canvas {border: 1px solid black;direction: ltr;width: 100%;height: auto;}#paginator{text-align: center;margin-bottom: 10px;}PreviousNext&amp;nbsp; &amp;nbsp;Page:  / window.onload = function() {var url = &#34;&#34; + &#34;.\/sito\/content\/posts\/document.pdf&#34;;var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;&#34; + &#39;/js/pdf-js/build/pdf.worker.js&#39;;var pdfDoc = null,pageNum = 1,pageRendering = false,pageNumPending = null,scale = 3,canvas = document.</description>
+            <content type="html"><![CDATA[<h2 id="fondamenti-di-tecnica-della-tecnologia-edilizia"><em><code>Fondamenti di Tecnica della Tecnologia Edilizia</code></em></h2>
+<script type="text/javascript" src="/js/pdf-js/build/pdf.js"></script>
+<style>
+#the-canvas {
+  border: 1px solid black;
+  direction: ltr;
+  width: 100%;
+  height: auto;
+}
+#paginator{
+    text-align: center;
+    margin-bottom: 10px;
+}
+</style>
+
+<div id="paginator">
+    <button id="prev">Previous</button>
+    <button id="next">Next</button>
+    &nbsp; &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+</div>
+<div id="embed-pdf-container">
+    <canvas id="the-canvas"></canvas>
+</div>
+
+<script type="text/javascript">
+window.onload = function() {
+
+
+
+var url = "" + ".\/sito\/content\/posts\/document.pdf";
+
+
+var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+
+pdfjsLib.GlobalWorkerOptions.workerSrc = "" + '/js/pdf-js/build/pdf.worker.js';
+
+
+var pdfDoc = null,
+    pageNum = 1,
+    pageRendering = false,
+    pageNumPending = null,
+    scale = 3,
+    canvas = document.getElementById('the-canvas'),
+    ctx = canvas.getContext('2d');
+
+
+
+function renderPage(num) {
+  pageRendering = true;
+  
+  pdfDoc.getPage(num).then(function(page) {
+    var viewport = page.getViewport({scale: scale});
+    canvas.height = viewport.height;
+    canvas.width = viewport.width;
+
+    
+    var renderContext = {
+      canvasContext: ctx,
+      viewport: viewport
+    };
+    var renderTask = page.render(renderContext);
+
+    
+    renderTask.promise.then(function() {
+      pageRendering = false;
+      if (pageNumPending !== null) {
+        
+        renderPage(pageNumPending);
+        pageNumPending = null;
+      }
+    });
+  });
+
+  
+  document.getElementById('page_num').textContent = num;
+}
+
+
+
+function queueRenderPage(num) {
+  if (pageRendering) {
+    pageNumPending = num;
+  } else {
+    renderPage(num);
+  }
+}
+
+
+
+function onPrevPage() {
+  if (pageNum <= 1) {
+    return;
+  }
+  pageNum--;
+  queueRenderPage(pageNum);
+}
+document.getElementById('prev').addEventListener('click', onPrevPage);
+
+
+
+function onNextPage() {
+  if (pageNum >= pdfDoc.numPages) {
+    return;
+  }
+  pageNum++;
+  queueRenderPage(pageNum);
+}
+document.getElementById('next').addEventListener('click', onNextPage);
+
+
+
+pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+  pdfDoc = pdfDoc_;
+  document.getElementById('page_count').textContent = pdfDoc.numPages;
+
+  
+  renderPage(pageNum);
+});
+}
+
+</script>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Jojolion Volume 1</title>
+            <link>/jojo0100/</link>
+            <pubDate>Mon, 01 Jun 2020 08:42:40 +0200</pubDate>
+            
+            <guid>/jojo0100/</guid>
+            <description></description>
+            <content type="html"><![CDATA[<!-- raw HTML omitted -->
+]]></content>
+        </item>
+        
+        <item>
+            <title>Calcolare gli eventuali punti di minimo o massimo della seguente funzione</title>
+            <link>/Max_Min2/</link>
+            <pubDate>Thu, 28 May 2020 01:19:27 +0200</pubDate>
+            
+            <guid>/Max_Min2/</guid>
+            <description>$$f_{x,y}=e^y(4x^2+y^2)$$
+$$ f_{x}=8xe^{y}$$
+$$ f_{y}=e^{y}(4x^2+y^2+2y)$$
+$$\begin{Bmatrix} 8xe^{y}=0\
+e^{y}(4x^2+y^2+2y)=0 \end{Bmatrix}$$ $$\begin{Bmatrix} 8x=0\
+4x^2+y^2+2y=0 \end{Bmatrix}$$ $$\begin{Bmatrix} x=0\
+y^2+2y=0 \end{Bmatrix}$$</description>
+            <content type="html"><![CDATA[<p>$$f_{x,y}=e^y(4x^2+y^2)$$</p>
+<!-- raw HTML omitted -->
+<p>$$ f_{x}=8xe^{y}$$</p>
+<p>$$ f_{y}=e^{y}(4x^2+y^2+2y)$$</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<p>$$\begin{Bmatrix}
+8xe^{y}=0\<br>
+e^{y}(4x^2+y^2+2y)=0
+\end{Bmatrix}$$
+$$\begin{Bmatrix}
+8x=0\<br>
+4x^2+y^2+2y=0
+\end{Bmatrix}$$
+$$\begin{Bmatrix}
+x=0\<br>
+y^2+2y=0
+\end{Bmatrix}$$</p>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+]]></content>
+        </item>
+        
+        <item>
+            <title>Abenobashi</title>
+            <link>/abenobashi/</link>
+            <pubDate>Fri, 24 May 2019 12:24:05 +0200</pubDate>
+            
+            <guid>/abenobashi/</guid>
+            <description>Abenobashi - Il quartiere commerciale di magia (アベノ橋魔法☆商店街 Abenobashi mahō shōtengai?) è una serie televisiva anime di 13 episodi prodotta dallo studio Gainax e diretta da Hiroyuki Yamaga. Un adattamento manga in due volumi scritto da Satoru Akahori e disegnato da Ryusei Deguchi è stato serializzato sulla rivista Afternoon di Kōdansha dal 2001 al 2002.
+In Italia l&amp;rsquo;anime è stato pubblicato in DVD da Shin Vision e trasmesso nel 2005 su MTV Italia, mentre i relativi adattamenti sono inediti.</description>
+            <content type="html"><![CDATA[<p>Abenobashi - Il quartiere commerciale di magia (アベノ橋魔法☆商店街 Abenobashi mahō shōtengai?) è una serie televisiva anime di 13 episodi prodotta dallo studio Gainax e diretta da Hiroyuki Yamaga. Un adattamento manga in due volumi scritto da Satoru Akahori e disegnato da Ryusei Deguchi è stato serializzato sulla rivista Afternoon di Kōdansha dal 2001 al 2002.</p>
+<p>In Italia l&rsquo;anime è stato pubblicato in DVD da Shin Vision e trasmesso nel 2005 su MTV Italia, mentre i relativi adattamenti sono inediti.</p>
+<p><a href="https://t.me/c/1335380379/344">Episodio 1</a></p>
+<p><a href="https://t.me/c/1335380379/345">Episodio 2</a></p>
+<p><a href="https://t.me/c/1335380379/346">Episodio 3</a></p>
+<p><a href="https://t.me/c/1335380379/347">Episodio 4</a></p>
+<p><a href="https://t.me/c/1335380379/348">Episodio 5</a></p>
+<p><a href="https://t.me/c/1335380379/349">Episodio 6</a></p>
+<p><a href="https://t.me/c/1335380379/350">Episodio 7</a></p>
+<p><a href="https://t.me/c/1335380379/351">Episodio 8</a></p>
+<p><a href="https://t.me/c/1335380379/352">Episodio 9</a></p>
+<p><a href="https://t.me/c/1335380379/353">Episodio 10</a></p>
+<p><a href="https://t.me/c/1335380379/354">Episodio 11</a></p>
+<p><a href="https://t.me/c/1335380379/355">Episodio 12</a></p>
+<p><a href="https://t.me/c/1335380379/356">Episodio 13</a></p>
+]]></content>
+        </item>
         
         <item>
             <title>Creare una calcolatrice in C&#43;&#43;</title>
@@ -44,7 +262,7 @@ int main ()
     nell'esecuzione di uno dei
     diversi casi di operazione*/
     switch (operazione){
-            
+
         case 1 :
             cout &lt;&lt; &quot;Inserisci il primo membro\n&quot;;
             cin &gt;&gt; num1;
@@ -53,7 +271,7 @@ int main ()
             risultato = num1+num2;
             cout &lt;&lt; &quot;Il risultato è : &quot; &lt;&lt; risultato &lt;&lt; endl;
             break;
-            
+
         case 2 :
             cout &lt;&lt; &quot;Inserisci il primo membro\n&quot;;
             cin &gt;&gt; num1;
@@ -62,7 +280,7 @@ int main ()
             risultato = num1-num2;
             cout &lt;&lt; &quot;Il risultato è : &quot; &lt;&lt; risultato &lt;&lt; endl;
             break;
-            
+
         case 3 :
             cout &lt;&lt; &quot;Inserisci il primo membro\n&quot;;
             cin &gt;&gt; num1;
@@ -71,7 +289,7 @@ int main ()
             risultato = num1*num2;
             cout &lt;&lt; &quot;Il risultato è : &quot; &lt;&lt; risultato &lt;&lt; endl;
             break;
-            
+
         case 4 :
             cout &lt;&lt; &quot;Inserisci il numeratore\n&quot;;
             cin &gt;&gt; num1;
@@ -80,7 +298,7 @@ int main ()
             risultato = num1/num2;
             cout &lt;&lt; &quot;Il risultato è : &quot; &lt;&lt; risultato &lt;&lt; endl;
             break;
-            
+
         case 5 :
             cout &lt;&lt; &quot;Inserisci la base\n&quot;;
             cin &gt;&gt; num1;
@@ -89,7 +307,7 @@ int main ()
             risultato = pow(num1, num2);
             cout &lt;&lt; &quot;Il risultato è : &quot; &lt;&lt; risultato &lt;&lt; endl;
             break;
-            
+
         case 6
             :
             cout &lt;&lt; &quot;Inserisci il radicando\n&quot;;
@@ -99,13 +317,13 @@ int main ()
             risultato = pow(num1, 1/num2);
             cout &lt;&lt; &quot;Il risultato è : &quot; &lt;&lt; risultato &lt;&lt; endl;
             break;
-            
+
         default :
             cout &lt;&lt; &quot;Non hai scelto nessuna operazione supportata\n&quot;;
             break;
-            
+
     }
-    
+
 }
 </code></pre>
 ]]></content>
@@ -649,22 +867,25 @@ int main ( ){
             <pubDate>Fri, 24 May 2019 08:42:40 +0200</pubDate>
             
             <guid>/matematica/</guid>
-            <description>Pagina creata per conservare gli esercizi del corso di Analisi matematica II , Ingegneria Edile - 2019
-Massimi e minimi  Esercizio 1  </description>
-            <content type="html"><![CDATA[<p>Pagina creata per conservare gli esercizi del corso di <em><code>Analisi matematica II</code></em> , Ingegneria Edile - 2019</p>
+            <description>https://mega.nz/folder/JRUyhIhD#xGj1Vd2jd--gIVJpYm4s9w
+Pagina creata per conservare gli esercizi del corso di Analisi matematica II , Ingegneria Edile - 2019
+Massimi e minimi  Esercizio 1 Esercizio 2  </description>
+            <content type="html"><![CDATA[<p><a href="https://mega.nz/folder/JRUyhIhD#xGj1Vd2jd--gIVJpYm4s9w">https://mega.nz/folder/JRUyhIhD#xGj1Vd2jd--gIVJpYm4s9w</a></p>
+<p>Pagina creata per conservare gli esercizi del corso di <em><code>Analisi matematica II</code></em> , Ingegneria Edile - 2019</p>
 <h2 id="massimi-e-minimi"><em><code>Massimi e minimi</code></em></h2>
 <ul>
 <li><a href="/Max_Min1/">Esercizio 1</a></li>
+<li><a href="/Max_Min2/">Esercizio 2</a></li>
 </ul>
 ]]></content>
         </item>
         
         <item>
             <title>Calcolare gli eventuali punti di minimo o massimo della seguente funzione</title>
-            <link>/max_min1/</link>
+            <link>/Max_Min1/</link>
             <pubDate>Fri, 24 May 2019 01:19:27 +0200</pubDate>
             
-            <guid>/max_min1/</guid>
+            <guid>/Max_Min1/</guid>
             <description>$$f_{x}=x^3+3xy^2-15x-12y$$
 $$\cdot f_{x}=3x^{2}+3y^{2}-15$$ $$=x^{2}+y^{2}-5$$
 $$\cdot f_{y}=6xy-12$$ $$=xy-2$$

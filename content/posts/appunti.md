@@ -6,4 +6,4 @@ draft: true
 ---
 *`Fondamenti di Tecnica della Tecnologia Edilizia`*
 ---
-* [Abenobashi](document.pdf)
+{{< embed-pdf url="./content/posts/document.pdf" >}}

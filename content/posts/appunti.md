@@ -6,4 +6,4 @@ draft: true
 ---
 *`Fondamenti di Tecnica della Tecnologia Edilizia`*
 ---
-{{< embed-pdf url="./sito/content/posts/document.pdf" >}}
+{{< embed-pdf url="./document.pdf" >}}

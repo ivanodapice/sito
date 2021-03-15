@@ -98,7 +98,7 @@ disableHugoGeneratorInject = false
   [[params.social]]
     name = "github"
     url  = "https://github.com/ivanodapice"
-    
+
 
   [[params.social]]
     name = "facebook"
@@ -132,8 +132,8 @@ disableHugoGeneratorInject = false
 
   [[menu.main]]
 
-    name       = "Yarr!"
-    url        = "/yarr"
+    name       = "Appunti"
+    url        = "/Appunti"
 
 [[params.page]]
     link = "/esercizio_1_informatica"
@@ -163,8 +163,8 @@ disableHugoGeneratorInject = false
     link = "/Max_Min2"
 
 [[params.page]]
-    link = "/yarr"
-    
+    link = "/appunti"
+
 [[params.page]]
     link = "/abenobashi"
 

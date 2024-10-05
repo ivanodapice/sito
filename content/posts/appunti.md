@@ -6,4 +6,4 @@ draft: true
 ---
 *`Fondamenti di Tecnica della Tecnologia Edilizia`*
 ---
-{{< embed-pdf url="./sito/content/posts/Il_gioco_di_Ender.pdf" >}}
+{{< embed-pdf url="./content/posts/Il_gioco_di_Ender.pdf" >}}
